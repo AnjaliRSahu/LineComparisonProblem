@@ -5,6 +5,7 @@
         static void Main(string[] args)
         {
             Console.WriteLine("welcome to Line Comparison Computation Program");
+            ModelLine.CalculateLength();
         }
     }
 }
