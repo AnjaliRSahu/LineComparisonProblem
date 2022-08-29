@@ -24,12 +24,12 @@ namespace LineCompareProgram
 
                 int m1, n1, m2, n2;
             Console.WriteLine("Enter  Coordinates value of second line");
-            x1 = Convert.ToInt32(Console.ReadLine());
-            y1 = Convert.ToInt32(Console.ReadLine());
-            x2 = Convert.ToInt32(Console.ReadLine());
-            y2 = Convert.ToInt32(Console.ReadLine());
+            m1 = Convert.ToInt32(Console.ReadLine());
+            n1 = Convert.ToInt32(Console.ReadLine());
+            m2 = Convert.ToInt32(Console.ReadLine());
+            n2 = Convert.ToInt32(Console.ReadLine());
 
-            double  length2= Math.Sqrt((x2 - x1) ^ 2 + (y2 - y1) ^ 2);
+            double  length2= Math.Sqrt((m2 - m1) ^ 2 + (n2 - n1) ^ 2);
 
             //Console.WriteLine("Length of the line :" + length2);
             

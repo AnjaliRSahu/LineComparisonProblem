@@ -17,6 +17,7 @@
                     LineEquality.LineEquals();
                     break;
                 case 3:
+                    ComparingLines.CompareLines();
                     break;
                 default:
                     Console.WriteLine("Enter wrong choice");
