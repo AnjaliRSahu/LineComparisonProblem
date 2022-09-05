@@ -36,12 +36,10 @@ namespace LineCompareProgram
             double res=length1.CompareTo(length2);
             if (res > length1 && res < length2)
                 Console.WriteLine("Line 1 is greater ");
-            else if (res > length2 && res < length1)
+            else 
                 Console.WriteLine("Line 2 is greater");
-            else if (length1 == length2)
-                Console.WriteLine("Both are equal");
-            else
-                Console.WriteLine("Invalid");
+            
+            
 
         }
 
